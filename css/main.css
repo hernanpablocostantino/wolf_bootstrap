@@ -25,17 +25,16 @@ body {
   padding: 6.667vw 0vw 6.667vw 0vw;
   margin-top: 5.333vw;
 }
-
+/* sitio */
+#sitio {
+  background-color: #dcdcdc;
+  padding: 6.667vw 0vw 6.667vw 0vw;
+  margin-top: 5.333vw;
+}
 
 /* toggler responsive */
 /* .navbar-toggler-icon{
   width: 1em;
   height: 1.2em;
 }  */
-/* #navbar-toggle {
-  position: absolute;
-  top: -99999px;
-  left: -99999px;
-  opacity: 0;
-  visibility: hidden;
-}
+
