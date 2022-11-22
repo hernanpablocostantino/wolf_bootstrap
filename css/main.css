@@ -1,14 +1,22 @@
 body {
   font-family: 'Open Sans', sans-serif;
+  background-color: #ffffff;
+}
+
+/* header */
+.img-opacity {
+  opacity: 90%;
 }
 
 /* nav */
 .navg a {
+  text-align: center;
+  font-size: 1.25rem;
   color: #000000;
   font-weight: 600;
-  /* text-align: center; */
+  text-align: center;
   text-transform: uppercase;
-  padding: 1.333vw 2vw;
+  padding: 0.625rem 0.9375rem;
 }
 .navg a:hover {
   color: #f4f4f4;
@@ -19,22 +27,29 @@ body {
 .navg .nav-item .nav-link.active:hover {
   color: #f4f4f4;
 }
-/* frase principal */
+
+/* testimonial */
 #frase {
   background-color: #dcdcdc;
-  padding: 6.667vw 0vw 6.667vw 0vw;
-  margin-top: 5.333vw;
-}
-/* sitio */
-#sitio {
-  background-color: #dcdcdc;
-  padding: 6.667vw 0vw 6.667vw 0vw;
-  margin-top: 5.333vw;
+  padding: 3.125rem 0rem 3.125rem 0rem;
+  margin-top: 1.5rem;
 }
 
-/* toggler responsive */
-/* .navbar-toggler-icon{
-  width: 1em;
-  height: 1.2em;
-}  */
+/* reflexión */
+#reflexion {
+  background-color: #dcdcdc;
+  padding: 3.125rem 0rem 3.125rem 0rem;
+  margin-top: 1.5rem;
+}
+
+/* carousel */
+.carousel-control-prev-icon {
+  width: 4rem;
+  height: 4rem;
+}
+.carousel-control-next-icon {
+  width: 4rem;
+  height: 4rem;
+}
+
 
